@@ -5,7 +5,7 @@ For Live Preview :
 http://powerware.site/power/Band/
 
 Template Features:
-- HTML5, CSS3, jQuery
+- HTML5, CSS3
 - Fully Responsive
 - Easy to Customizable
 - W3C Validated Code
