@@ -23,6 +23,8 @@ Fonts:
 
 Plugins:
 - Normalize.css
+- No Framework
+- No JS Code
 
 Support: 
 - If you need any help using the file or need special customizing please contact me via my Github or my Website.
