@@ -2,7 +2,6 @@
 HTML Musical Band Theme
 
 For Live Preview : 
-http://powerware.site/power/Band/
 
 Template Features:
 - HTML5, CSS3
@@ -23,8 +22,8 @@ Fonts:
 
 Plugins:
 - Normalize.css
-- No Framework
-- No JS Code
+- No Framework included
+- No JS Code included
 
 Support: 
 - If you need any help using the file or need special customizing please contact me via my Github or my Website.

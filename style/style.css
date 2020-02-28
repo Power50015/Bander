@@ -1,266 +1,452 @@
-* { box-sizing: border-box }
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
+/*
+Theme Name: Bander
+Theme URI: https://github.com/Power50015/Bander
+Author: Power Mostafa (Power50015)
+Author URI: 
+Description: HTML Musical Band Theme
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 Base
+2.0 Layout
+3.0 Module
+    3.1 Nav Bar
+    3.2 Header
+    3.3 About Section
+    3.4 Video Section
+    3.5 Follow US Section
+    3.6 footer
+4.0 Media Queries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 Base
+--------------------------------------------------------------*/
+* {
+  box-sizing: border-box;
 }
 body {
-    font-family: 'Changa', sans-serif;
-    background: #000;
-    overflow-x:hidden;
+  font-family: "Changa", sans-serif;
+  background: #000;
+  overflow-x: hidden;
 }
-
-/* Nav Bar */
-nav { background: #000 }
+/*--------------------------------------------------------------
+2.0 Layout
+--------------------------------------------------------------*/
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*--------------------------------------------------------------
+3.0 Module
+--------------------------------------------------------------*/
+/* 3.1 Nav Bar */
+nav {
+  background: #000;
+}
 .logo {
-    position: relative;
-    width: 253px;
-    height: 128px;
-    overflow: hidden;
-    float: left; /* ltr */
-    margin-right: 50px /* ltr */
+  position: relative;
+  width: 253px;
+  height: 128px;
+  overflow: hidden;
+  float: left; /* ltr */
+  margin-right: 50px; /* ltr */
 }
-.logo img { position: absolute; top: 0; left: 0 }
-.nav-list { list-style-type: none; text-transform: uppercase; margin: 0 }
-.nav-list .nav-item { color: #F9ED01; display: inline-block; padding: 35px 0 }
-.nav-list .nav-item a { 
-    color: inherit;
-    text-decoration: none;
-    margin-right: 40px; /* ltr */
-    font-size: 60px 
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.nav-list .nav-item a:hover { color: #fff;}
+.nav-list {
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+}
+.nav-list .nav-item {
+  color: #f9ed01;
+  display: inline-block;
+  padding: 35px 0;
+}
+.nav-list .nav-item a {
+  color: inherit;
+  text-decoration: none;
+  margin-right: 40px; /* ltr */
+  font-size: 60px;
+}
+.nav-list .nav-item a:hover {
+  color: #fff;
+}
 
-/* Header */
-header { width: 100%; position: relative; overflow: hidden }
-header .logos { list-style-type: none; font-size: 72px }
-header .logos li { position: absolute;}
-header .logos li:first-child{
-    right: 15px;
-    top:80px;
-    transform: rotate(20deg);
-    color:#fa0001
+/* 3.2 Header */
+header {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
-header .logos li:nth-child(2){
-    right: 206px;
-    top: 330px;
-    transform: rotate(-26deg);
-    color: #cefef8;
-    font-weight: 200
+header .logos {
+  list-style-type: none;
+  font-size: 72px;
 }
-header .logos li:nth-child(3){
-    right: 100px;
-    bottom: 20px;
-    color: #fff;
-    font-weight: 200
+header .logos li {
+  position: absolute;
 }
-header .logos li:nth-child(4){
-    right: 30px;
-    bottom: 211px;
-    transform: rotate(28deg);
-    color: #ec9be7;
-    font-weight: 500
+header .logos li:first-child {
+  right: 15px;
+  top: 80px;
+  transform: rotate(20deg);
+  color: #fa0001;
 }
-header .logos li:nth-child(5){
-    right: 500px;
-    top: 211px;
-    color: #f8e706;
-    font-weight: 500
+header .logos li:nth-child(2) {
+  right: 206px;
+  top: 330px;
+  transform: rotate(-26deg);
+  color: #cefef8;
+  font-weight: 200;
 }
-header .logos li:nth-child(6){
-    right: 800px;
-    bottom: 100px;
-    transform: rotate(28deg);
-    color: #9c5959;
-    font-weight: 200
+header .logos li:nth-child(3) {
+  right: 100px;
+  bottom: 20px;
+  color: #fff;
+  font-weight: 200;
 }
-header .logos li:nth-child(7){
-    left: 500px;
-    top: 100px;
-    transform: rotate(-28deg);
-    color: #db22cc;
-    font-weight: 200
+header .logos li:nth-child(4) {
+  right: 30px;
+  bottom: 211px;
+  transform: rotate(28deg);
+  color: #ec9be7;
+  font-weight: 500;
 }
-header .logos li:nth-child(8){
-    left: 100px;
-    top: 280px;
-    transform: rotate(28deg);
-    color: #91e2e2;
-    font-weight: 500
+header .logos li:nth-child(5) {
+  right: 500px;
+  top: 211px;
+  color: #f8e706;
+  font-weight: 500;
 }
-header .logos li:nth-child(9){
-    left: 200px;
-    bottom: 300px;
-    color: #e8e36d;
-    font-weight: 200
+header .logos li:nth-child(6) {
+  right: 800px;
+  bottom: 100px;
+  transform: rotate(28deg);
+  color: #9c5959;
+  font-weight: 200;
 }
-header .logos li:last-child{
-    left: 30px;
-    bottom: 100px;
-    transform: rotate(-28deg);
-    color: #fa0001;
-    font-weight: 200
+header .logos li:nth-child(7) {
+  left: 500px;
+  top: 100px;
+  transform: rotate(-28deg);
+  color: #db22cc;
+  font-weight: 200;
 }
-.header-bg { position: absolute; z-index: -1; width: 100%; top: 0px }
-.header-bg video { width: 100% }
+header .logos li:nth-child(8) {
+  left: 100px;
+  top: 280px;
+  transform: rotate(28deg);
+  color: #91e2e2;
+  font-weight: 500;
+}
+header .logos li:nth-child(9) {
+  left: 200px;
+  bottom: 300px;
+  color: #e8e36d;
+  font-weight: 200;
+}
+header .logos li:last-child {
+  left: 30px;
+  bottom: 100px;
+  transform: rotate(-28deg);
+  color: #fa0001;
+  font-weight: 200;
+}
+.header-bg {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 0px;
+}
+.header-bg video {
+  width: 100%;
+}
 
-/* About Section */
-.about{
-    padding: 30px 50px;
-    position: relative;
-    width: 100%;
-    height: 900px
+/* 3.3 About Section */
+.about {
+  padding: 30px 50px;
+  position: relative;
+  width: 100%;
+  height: 900px;
 }
-.about-title{
-    background: #e9e36b;
-    color: #000;
-    font-size: 60px;
-    font-weight: 400;
-    padding: 10px 150px 10px 20px;
-    position: absolute;
-    text-transform: uppercase;
-    left: 163px; /* ltr */
-    top: -20px  
+.about-title {
+  background: #e9e36b;
+  color: #000;
+  font-size: 60px;
+  font-weight: 400;
+  padding: 10px 150px 10px 20px;
+  position: absolute;
+  text-transform: uppercase;
+  left: 163px; /* ltr */
+  top: -20px;
 }
-.team-img{ position: relative; top: 91px; width: 60% }
-.img-bg{
-    width: 100%;
-    height: 582px;
-    background: #8dedeb;
-    position: absolute;
-    z-index: -1;
-    left: -2px; /* ltr */
-    top: -2px
+.team-img {
+  position: relative;
+  top: 91px;
+  width: 60%;
 }
-.the-team{
-    width: 100%;
-    height: 598px;
-    position: absolute;
-    top: 50px;
-    right: 50px; /* ltr */
+.img-bg {
+  width: 100%;
+  height: 582px;
+  background: #8dedeb;
+  position: absolute;
+  z-index: -1;
+  left: -2px; /* ltr */
+  top: -2px;
 }
-.about-text{
-    top: 160px;
-    right: 0;/* ltr */
-    font-size: 22px;
-    padding: 0px 85px;
-    display: inline-block;
-    color: white;
-    font-weight: 500;
-    line-height: 30px; 
+.the-team {
+  width: 100%;
+  height: 598px;
+  position: absolute;
+  top: 50px;
+  right: 50px; /* ltr */
+}
+.about-text {
+  top: 160px;
+  right: 0; /* ltr */
+  font-size: 22px;
+  padding: 0px 85px;
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  line-height: 30px;
 }
 .more-btn {
-    position: absolute;
-    bottom: 0;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #e52926;
-    padding: 20px;
-    font-size: 39px;
-    right: 42%  /* ltr */
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #e52926;
+  padding: 20px;
+  font-size: 39px;
+  right: 42%; /* ltr */
 }
 
-/* Video Section*/
-.song-video { padding-top: 50px; height: 674px }
-.song-video iframe { width: 100%; height: 100% }
+/* 3.4 Video Section */
+.song-video {
+  padding-top: 50px;
+  height: 674px;
+}
+.song-video iframe {
+  width: 100%;
+  height: 100%;
+}
 
-/* Follow US Section */
+/* 3.5 Follow US Section */
 .follw-title {
-    background-color: #91e2e2;
-    padding: 10px 110px 10px 10px;
-    font-weight: 200;
-    font-size: 60px;
-    color: #000;
-    display: inline-block
+  background-color: #91e2e2;
+  padding: 10px 110px 10px 10px;
+  font-weight: 200;
+  font-size: 60px;
+  color: #000;
+  display: inline-block;
 }
 .social {
-    list-style-type: none;
-    display: block;
-    padding: 0px
+  list-style-type: none;
+  display: block;
+  padding: 0px;
 }
 .social li {
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    margin-right: 50px /* ltr */
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  margin-right: 50px; /* ltr */
 }
-.social .face { width: 128px; height: 128px; }
-.social .face img { bottom: 0; left: 0; position: absolute }
-.social .twe { width: 128px; height: 128px }
-.social .twe img
-{ bottom: 3px; right: -200px; position: absolute }
-.social .ins { width: 128px; height: 128px }
-.social .ins img { bottom: 0; right: 0; position: absolute }
-.social .you { width: 128px; height: 128px }
-.social .you img { top: 0; right: -136px; position: absolute }
+.social .face {
+  width: 128px;
+  height: 128px;
+}
+.social .face img {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+.social .twe {
+  width: 128px;
+  height: 128px;
+}
+.social .twe img {
+  bottom: 3px;
+  right: -200px;
+  position: absolute;
+}
+.social .ins {
+  width: 128px;
+  height: 128px;
+}
+.social .ins img {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+.social .you {
+  width: 128px;
+  height: 128px;
+}
+.social .you img {
+  top: 0;
+  right: -136px;
+  position: absolute;
+}
 
-/* CopyRight */
+/* 3.6 footer */
 footer {
-    background-color: #ccc;
-    width: 100%;
-    padding: 12px 0;
-    margin: 0;
+  background-color: #ccc;
+  width: 100%;
+  padding: 12px 0;
+  margin: 0;
 }
-footer .copy { color:#000; text-transform: uppercase }
+footer .copy {
+  color: #000;
+  text-transform: uppercase;
+}
 
+/*--------------------------------------------------------------
+4.0 Media Queries
+--------------------------------------------------------------*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .container ,.container-fluid { padding-right: 0px; padding-left: 0px }
-    .nav-list .nav-item { display: none }
-    .nav-list .nav-item:last-of-type{ display: inline-block; float: right /*rtl*/ }
-    header {height: 200px}
-    header .logos { display: none; }
-    .about { height: auto; position: static }
-    .team-img { width: 100% ; position: static }
-    .about-title { position: static }
-    .img-bg { display: none}
-    .the-team { position: static; height: auto }
-    .about-text { display: none }
-    .more-btn { position: static; font-size: 20px }
-} 
+  .container,
+  .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .nav-list .nav-item {
+    display: none;
+  }
+  .nav-list .nav-item:last-of-type {
+    display: inline-block;
+    float: right; /*rtl*/
+  }
+  header {
+    height: 200px;
+  }
+  header .logos {
+    display: none;
+  }
+  .about {
+    height: auto;
+    position: static;
+  }
+  .team-img {
+    width: 100%;
+    position: static;
+  }
+  .about-title {
+    position: static;
+  }
+  .img-bg {
+    display: none;
+  }
+  .the-team {
+    position: static;
+    height: auto;
+  }
+  .about-text {
+    display: none;
+  }
+  .more-btn {
+    position: static;
+    font-size: 20px;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .container { max-width: 570px }
-    .nav-list .nav-item { display: none }
-    .nav-list .nav-item:last-of-type{ display: inline-block; float: right/*rtl*/}
-    header { height: 600px; }
-    header .logos { display: none }
-    .about { height: 1400px }
-    .about-text { position: static; width: 100% }
-    .team-img { width: 100% ; height: 730px }
-} 
+  .container {
+    max-width: 570px;
+  }
+  .nav-list .nav-item {
+    display: none;
+  }
+  .nav-list .nav-item:last-of-type {
+    display: inline-block;
+    float: right; /*rtl*/
+  }
+  header {
+    height: 600px;
+  }
+  header .logos {
+    display: none;
+  }
+  .about {
+    height: 1400px;
+  }
+  .about-text {
+    position: static;
+    width: 100%;
+  }
+  .team-img {
+    width: 100%;
+    height: 730px;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .container { max-width: 720px }
-    header { height: 430px }
-    .about { height: 1630px }
-    .team-img { width: 100% ; height: 730px }
-} 
+  .container {
+    max-width: 720px;
+  }
+  header {
+    height: 430px;
+  }
+  .about {
+    height: 1630px;
+  }
+  .team-img {
+    width: 100%;
+    height: 730px;
+  }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .container { max-width: 960px }
-} 
+  .container {
+    max-width: 960px;
+  }
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .container { max-width: 1140px }
-    .nav-list .nav-item { display: inline-block }
-    header { height: 850px}
-    header .logos { display: block }
-    .about { height: 1000px }
-    .team-img { width: 60% ; height: auto }
-    .about-text { position: absolute; width: 40% }
+  .container {
+    max-width: 1140px;
+  }
+  .nav-list .nav-item {
+    display: inline-block;
+  }
+  header {
+    height: 850px;
+  }
+  header .logos {
+    display: block;
+  }
+  .about {
+    height: 1000px;
+  }
+  .team-img {
+    width: 60%;
+    height: auto;
+  }
+  .about-text {
+    position: absolute;
+    width: 40%;
+  }
 }
