@@ -1,7 +1,7 @@
 # Band
 HTML Musical Band Theme
 
-For Live Preview : 
+For Live Preview : https://power50015.github.io/Bander/
 
 Template Features:
 - HTML5, CSS3
