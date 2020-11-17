@@ -1,9 +1,9 @@
 # Band
-HTML Musical Band Theme
+HTML musical band template , one of my first projects
 
 For Live Preview : https://power50015.github.io/Bander/
 
-Template Features:
+##Template Features:
 - HTML5, CSS3
 - Fully Responsive
 - Easy to Customizable
@@ -13,7 +13,7 @@ Template Features:
 - All files are well commented
 - Displays well in all modern browsers and devices
 
-What do you get?
+##What do you get?
 - HTML content
 - CSS Sheet
 
