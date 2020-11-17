@@ -1,4 +1,4 @@
-# Band (HTML Musical Band Template)
+# Bander (HTML Musical Band Template)
 HTML musical band template , one of my first projects
 ![Preview Img](https://raw.githubusercontent.com/Power50015/Bander/master/PSD/Band.jpg)
 
