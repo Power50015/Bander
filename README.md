@@ -3,7 +3,7 @@ HTML musical band template , one of my first projects
 
 For Live Preview : https://power50015.github.io/Bander/
 
-##Template Features:
+## Template Features:
 - HTML5, CSS3
 - Fully Responsive
 - Easy to Customizable
@@ -13,18 +13,18 @@ For Live Preview : https://power50015.github.io/Bander/
 - All files are well commented
 - Displays well in all modern browsers and devices
 
-##What do you get?
+## What do you get?
 - HTML content
 - CSS Sheet
 
-Fonts:
+## Fonts:
 - Changa
 
-Plugins:
+## Plugins:
 - Normalize.css
 - No Framework included
 - No JS Code included
 
-Support: 
+## Support: 
 - If you need any help using the file or need special customizing please contact me via my Github or my Website.
 - If you like my  html template, please follwo me , We’ll appreciate it very much Thank you.
