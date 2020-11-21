@@ -1,7 +1,7 @@
 # Bander (HTML Musical Band Template)
 
 HTML musical band template , one of my first projects
-![Preview Img](https://raw.githubusercontent.com/Power50015/Bander/master/PSD/Band.jpg)
+![Preview Img](src/PSD/Band.jpg)
 
 For Live Preview : https://power50015.github.io/Bander/
 
