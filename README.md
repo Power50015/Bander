@@ -5,6 +5,34 @@ HTML musical band template , one of my first projects
 
 For Live Preview : https://power50015.github.io/Bander/
 
+## Quickstart
+
+1. Install the [node.js](https://nodejs.org/en/)
+2. Clone the project
+
+    ```bash
+    git clone https://Power50015/Bander-HTML-Musical-Band-Template.git
+    ```
+
+3. Go to project folder and run
+
+    ```bash
+    npm install
+    ```
+
+4. Start development mode
+
+    ```bash
+    npm run gulp:dev
+    ```
+
+5. In browser open page with address [http://localhost:3000/](http://localhost:3000/)
+
+### Main tasks
+
+- npm run gulp:dev -  launches watchers and server & compile project.
+- npm run gulp:build - optimize & minify files for production version.
+
 ## Template Features:
 
 - HTML5, CSS3
