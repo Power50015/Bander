@@ -36,7 +36,6 @@ For Live Preview : https://bander-html-musical-band-template.netlify.app/
 ## Template Features:
 
 - HTML5, CSS3
-- SMACSS (Scalable and Modular Architecture for CSS)
 - Fully Responsive
 - Easy to Customizable
 - W3C Validated Code
