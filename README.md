@@ -3,7 +3,7 @@
 HTML musical band template , one of my first projects
 ![Preview Img](src/PSD/Band.jpg)
 
-For Live Preview : https://bander-html-musical-band-template.netlify.app/
+For Live Preview : https://bander-html-musical-band-template.mohamed-ashamallah.com/
 
 ## Quickstart
 
